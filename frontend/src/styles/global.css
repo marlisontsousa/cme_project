@@ -1,0 +1,152 @@
+/* Definindo as cores principais */
+:root {
+  --cor-primaria: #007bff; /* Azul hospitalar */
+  --cor-secundaria: #ffffff; /* Branco */
+  --cor-texto: #333333; /* Texto escuro */
+  --cor-texto-claro: #f0f0f0; /* Fundo claro */
+}
+
+/* Reset básico de margens e padding */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto);
+  line-height: 1.6;
+  background-image: url('https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Imagem de fundo (substitua com a sua URL) */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+nav {
+  width: 100%;
+  background-color: var(--cor-primaria);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: var(--cor-secundaria);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Hover nas links da navbar */
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para os formulários */
+form {
+  background-color: var(--cor-texto-claro);
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Títulos e textos */
+h2, h3 {
+  color: var(--cor-primaria);
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+thead{
+  background-color: #007bff;
+  text-align: center;
+}
+tbody{
+  text-align: center;
+  background-color: #ddd;
+}
+th{
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+  border-color: #333333;
+}
