@@ -1,5 +1,5 @@
-Desafio Técnico Full Stack – Grupo Bringel
-Este projeto foi desenvolvido como parte de um desafio técnico proposto pelo Grupo Bringel. O objetivo foi criar uma aplicação web para gerenciar os processos de uma Central de Materiais e Esterilização (CME), com foco em rastreabilidade, controle de falhas e gerenciamento de usuários e materiais hospitalares.
+Desafio Técnico Full Stack 
+Este projeto foi desenvolvido como parte de um desafio técnico. O objetivo foi criar uma aplicação web para gerenciar os processos de uma Central de Materiais e Esterilização (CME), com foco em rastreabilidade, controle de falhas e gerenciamento de usuários e materiais hospitalares.
 
  Importante: O projeto ainda está em desenvolvimento. Até o momento, foram implementadas as entidades principais e os endpoints de cadastro e busca de funcionários.
 
