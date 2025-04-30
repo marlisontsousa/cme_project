@@ -106,8 +106,9 @@ Enfermagem – Consulta processos e falhas
 
 Administrador – Cadastra usuários e atribui funções
 
- Considerações Finais
+ # Consideraçoes Finais
 Apesar do tempo limitado e do meu conhecimento atual, busquei aplicar boas práticas como separação de responsabilidades (MVC + Repository), uso de containers para padronizar o ambiente e uma base sólida para expansão do projeto.
+Mesmo com o projeto ainda incompleto, a experiência foi extremamente rica e me permitiu colocar em prática conceitos essenciais de desenvolvimento full stack. Estou comprometido em continuar evoluindo esse projeto e expandindo as funcionalidades.
 
 Estou disponível para esclarecer qualquer ponto técnico ou discutir as decisões tomadas durante o desenvolvimento.
 
