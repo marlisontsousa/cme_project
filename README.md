@@ -1,9 +1,9 @@
 Desafio Técnico Full Stack – Grupo Bringel
 Este projeto foi desenvolvido como parte de um desafio técnico proposto pelo Grupo Bringel. O objetivo foi criar uma aplicação web para gerenciar os processos de uma Central de Materiais e Esterilização (CME), com foco em rastreabilidade, controle de falhas e gerenciamento de usuários e materiais hospitalares.
 
-⚠️ Importante: O projeto ainda está em desenvolvimento. Até o momento, foram implementadas as entidades principais e os endpoints de cadastro e busca de funcionários.
+ Importante: O projeto ainda está em desenvolvimento. Até o momento, foram implementadas as entidades principais e os endpoints de cadastro e busca de funcionários.
 
-✅ Funcionalidades Implementadas
+ Funcionalidades Implementadas
  Estruturação inicial do backend em Python com Flask
 
  Estruturação do frontend com React + Vite
@@ -28,7 +28,7 @@ Falha
 
 Processo
 
-🚧 Funcionalidades Pendentes
+ Funcionalidades Pendentes
  Implementação dos demais endpoints (materiais, processos, rastreabilidade, falhas)
 
  Validação completa de etapas por serial
@@ -41,7 +41,7 @@ Processo
 
  Documentação com Swagger ou Postman
 
-🧠 Estrutura do Projeto
+ Estrutura do Projeto
 O projeto foi dividido em backend (Flask) e frontend (React), com padrão arquitetural MVC + Repository no backend para facilitar a manutenção e escalabilidade.
 
 Entidades no backend:
@@ -76,7 +76,7 @@ Axios
 
 Docker
 
-▶️ Como Rodar o Projeto
+ Como Rodar o Projeto
 Você precisará ter o Docker e o Docker Compose instalados.
 
 
@@ -90,14 +90,14 @@ cd nome-do-repositorio
 docker-compose up --build
 O backend estará disponível em http://localhost:5000, e o frontend em http://localhost:3000.
 
-🔐 Perfis de Usuários Esperados
+ Perfis de Usuários Esperados
 Técnico – Realiza etapas do processo
 
 Enfermagem – Consulta processos e falhas
 
 Administrador – Cadastra usuários e atribui funções
 
-📄 Considerações Finais
+ Considerações Finais
 Apesar do tempo limitado e do meu conhecimento atual, busquei aplicar boas práticas como separação de responsabilidades (MVC + Repository), uso de containers para padronizar o ambiente e uma base sólida para expansão do projeto.
 
 Estou disponível para esclarecer qualquer ponto técnico ou discutir as decisões tomadas durante o desenvolvimento.
