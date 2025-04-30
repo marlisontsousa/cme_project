@@ -3,7 +3,7 @@ Este projeto foi desenvolvido como parte de um desafio técnico proposto pelo Gr
 
  Importante: O projeto ainda está em desenvolvimento. Até o momento, foram implementadas as entidades principais e os endpoints de cadastro e busca de funcionários.
 
- Funcionalidades Implementadas
+ #Funcionalidades Implementadas
  Estruturação inicial do backend em Python com Flask
 
  Estruturação do frontend com React + Vite
@@ -28,7 +28,7 @@ Falha
 
 Processo
 
- Funcionalidades Pendentes
+##Funcionalidades Pendentes
  Implementação dos demais endpoints (materiais, processos, rastreabilidade, falhas)
 
  Validação completa de etapas por serial
@@ -41,7 +41,7 @@ Processo
 
  Documentação com Swagger ou Postman
 
- Estrutura do Projeto
+#Estrutura do Projeto
 O projeto foi dividido em backend (Flask) e frontend (React), com padrão arquitetural MVC + Repository no backend para facilitar a manutenção e escalabilidade.
 
 Entidades no backend:
@@ -55,7 +55,7 @@ Falha – controle de falhas por serial
 
 Processo – rastreamento do ciclo de esterilização
 
-⚙️ Tecnologias Utilizadas
+#Tecnologias Utilizadas
 Backend:
 Python 3.10+
 
@@ -76,7 +76,7 @@ Axios
 
 Docker
 
- Como Rodar o Projeto
+#Como Rodar o Projeto
 Você precisará ter o Docker e o Docker Compose instalados.
 
 
