@@ -37,7 +37,7 @@ Este projeto foi desenvolvido como parte de um desafio técnico. O objetivo foi 
 
  - Validação completa de etapas por serial
 
- - Interface frontend para todas as funcionalidades
+ - Interface frontend para Login e outras funcionalidades
 
  - Sistema completo de autenticação e perfis de acesso
 
