@@ -1,10 +1,10 @@
-Desafio Técnico Full Stack 
+# Desafio Tecnico fullStack
 
 Este projeto foi desenvolvido como parte de um desafio técnico. O objetivo foi criar uma aplicação web para gerenciar os processos de uma Central de Materiais e Esterilização (CME), com foco em rastreabilidade, controle de falhas e gerenciamento de usuários e materiais hospitalares.
 
  Importante: O projeto ainda está em desenvolvimento. Até o momento, foram implementadas as entidades principais e os endpoints de cadastro e busca de funcionários.
 
- #Funcionalidades Implementadas
+ # Funcionalidades Implementadas
  
  - Estruturação inicial do backend em Python com Flask
 
@@ -30,7 +30,7 @@ Este projeto foi desenvolvido como parte de um desafio técnico. O objetivo foi 
 
 - Processo
 
-##Funcionalidades Pendentes
+# Funcionalidades pendentes
  
  
  - Implementação dos demais endpoints (materiais, processos, rastreabilidade, falhas)
@@ -45,7 +45,7 @@ Este projeto foi desenvolvido como parte de um desafio técnico. O objetivo foi 
 
  - Documentação com Swagger ou Postman
 
-#Estrutura do Projeto
+# Estrutura do Projeto.
 
 O projeto foi dividido em backend (Flask) e frontend (React), com padrão arquitetural MVC + Repository no backend para facilitar a manutenção e escalabilidade.
 
@@ -61,9 +61,9 @@ Entidades no backend:
 
 *Processo – rastreamento do ciclo de esterilização
 
-#Tecnologias Utilizadas
+# Tecnologia Utilizadas.
 
-Backend:
+# Backend:
 
 Python 3.10+
 
@@ -75,7 +75,7 @@ PostgreSQL
 
 Docker + Docker Compose
 
-Frontend:
+# Frontend:
 
 React
 
@@ -85,7 +85,7 @@ Axios
 
 Docker
 
-#Como Rodar o Projeto
+# Como rodar o projeto
 Você precisará ter o Docker e o Docker Compose instalados.
 
 
