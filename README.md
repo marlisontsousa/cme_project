@@ -6,59 +6,65 @@ Este projeto foi desenvolvido como parte de um desafio técnico. O objetivo foi 
 
  #Funcionalidades Implementadas
  
- Estruturação inicial do backend em Python com Flask
+ - Estruturação inicial do backend em Python com Flask
 
- Estruturação do frontend com React + Vite
+ - Estruturação do frontend com React + Vite
 
- Configuração do banco de dados PostgreSQL com Docker
+ - Configuração do banco de dados PostgreSQL com Docker
 
- Docker Compose com serviços de backend, frontend e banco de dados
+ - Docker Compose com serviços de backend, frontend e banco de dados
 
- Cadastro e busca de funcionários
+ - Cadastro e busca de funcionários
 
- Geração de relatórios (PDF e XLSX)
+ - Geração de relatórios (PDF e XLSX)
 
  Criação das entidades:
 
-Funcionário
+- Funcionário
 
-Material
+- Material
 
-Etapa
+- Etapa
 
-Falha
+- Falha
 
-Processo
+- Processo
 
 ##Funcionalidades Pendentes
- Implementação dos demais endpoints (materiais, processos, rastreabilidade, falhas)
+ 
+ 
+ - Implementação dos demais endpoints (materiais, processos, rastreabilidade, falhas)
 
- Validação completa de etapas por serial
+ - Validação completa de etapas por serial
 
- Interface frontend para todas as funcionalidades
+ - Interface frontend para todas as funcionalidades
 
- Sistema completo de autenticação e perfis de acesso
+ - Sistema completo de autenticação e perfis de acesso
 
- Testes automatizados
+ - Testes automatizados
 
- Documentação com Swagger ou Postman
+ - Documentação com Swagger ou Postman
 
 #Estrutura do Projeto
+
 O projeto foi dividido em backend (Flask) e frontend (React), com padrão arquitetural MVC + Repository no backend para facilitar a manutenção e escalabilidade.
 
 Entidades no backend:
-Funcionario – técnicos, enfermagem e administradores
 
-Material – materiais a serem esterilizados
+*Funcionario – técnicos, enfermagem e administradores
 
-Etapa – etapas do processo (recebimento, lavagem, esterilização, distribuição)
+*Material – materiais a serem esterilizados
 
-Falha – controle de falhas por serial
+*Etapa – etapas do processo (recebimento, lavagem, esterilização, distribuição)
 
-Processo – rastreamento do ciclo de esterilização
+*Falha – controle de falhas por serial
+
+*Processo – rastreamento do ciclo de esterilização
 
 #Tecnologias Utilizadas
+
 Backend:
+
 Python 3.10+
 
 Flask
@@ -70,6 +76,7 @@ PostgreSQL
 Docker + Docker Compose
 
 Frontend:
+
 React
 
 Vite
